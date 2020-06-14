@@ -1,0 +1,81 @@
+h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align : center;
+}
+
+table, tr{
+    width : 100%;
+    font-size : x-large;
+}
+
+button {
+	border-radius:12px 0 12px 0;
+	background: #d34836;
+	border:none;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px;
+}
+
+button:hover{
+    opacity : 70%;
+    text-transform : uppercase;
+}
+
+input[type="radio"].choix {
+    display: none;
+  }
+  input[type="radio"].choix + label {
+    padding: 5px ;
+    font-size: 15px;
+    line-height: 2;
+    border-radius: 0.1rem;
+    color: #fff;
+    background-color: rgb(206, 97, 97);
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+  }
+  input[type="radio"].choix:hover + label {
+    background-color: rgb(180, 31, 31);
+  }
+  input[type="radio"].choix:checked + label {
+    background-color: #28a745;
+  }
+
+.reponse{
+    padding: 12px ;
+    font-size: 12px;
+    line-height: 0.5;
+    border-radius: 0.1rem;
+    background-color : rgb(23, 181, 187);
+    color: #fff;
+    border: 1px solid transparent;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+.reponse:hover{
+    background-color : white;
+    color: rgb(23, 181, 187);
+    border-top : thin solid rgb(23, 181, 187);
+    border-bottom : thin solid rgb(23, 181, 187);
+}
+
+.cacher{
+    display : none;
+    border : thin solid rgb(183, 255, 183);
+    background-color : rgb(183, 255, 183);
+    font-size : large;
+}
+
+.responsive{
+  background-size: cover;
+}
+@media
+  (max-width: 600px)
+  {.responsive{
+    width:100%
+  }
+}
+

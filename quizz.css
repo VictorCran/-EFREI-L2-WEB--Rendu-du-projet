@@ -1,0 +1,21 @@
+button{
+    padding: 12px ;
+    font-size: 12px;
+    line-height: 0.5;
+    border-radius: 0.1rem;
+    background-color : tan;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color : white;
+    color: tan;
+    border-top : thin solid tan;
+    border-bottom : thin solid tan;
+}
+
+fieldset{
+    border : 5px double tan; 
+}

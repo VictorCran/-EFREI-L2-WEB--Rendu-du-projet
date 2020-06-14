@@ -1,0 +1,122 @@
+
+.displayed{
+    text-align: center;
+}
+
+/*Dimensions du logo*/
+img.displayed{
+    height: 100px;
+    width: 100px;   
+}
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: space-around;
+}
+    
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+    
+    
+li a:hover {
+    background-color: #D3D3D3;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+    
+.active{
+    background-color: gold;
+}
+
+    
+footer {
+    height: 4em;
+    display: flex;
+    justify-content: block;
+    padding: 2px;
+    background-color: white;
+}
+    
+    
+.certif{
+    height: 2.5em;
+    justify-content: center;
+}
+    
+    
+ul.b{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*Bas de la page */
+.contact{
+    justify-content: center;
+}
+
+th,td{
+    padding: 7px;
+    text-align: center;
+    color: black;
+}
+
+.milieu{
+    text-align : center;
+    background-color : rgb(231, 231, 231);
+}
+
+.milieu2{
+    text-align : center;
+}
+
+.hover:hover{
+    opacity : 60%;
+}
+
+figure{
+    border: 3px solid black;
+    padding : 5px;
+    width : 400px;
+    margin : auto;
+}
+
+figcaption{
+    background-color : RGBa(0,0,0,8);
+    color : #fff;
+    text-align : center;
+    font-style : italic;
+}
+
+.photo{
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.phrase{
+    font-size : large;
+    text-align : center;
+}
+
+.responsive{
+    background-size: cover;
+  }
+  @media
+    (max-width: 400px)
+    {.responsive{
+      width:100%
+    }
+  }
